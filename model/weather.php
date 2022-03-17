@@ -28,13 +28,23 @@ class weather{
         echo "</br>";
     }
     function displayinfo($data){
+        echo("<h1>");
+        echo( $data["name"]);
+        echo("</h1>");
+        echo("</br>");
+       
         echo( $data['weather'][0]["description"]);
+        
+        echo("</br>");
         echo("</br>");
         echo("max temp:" .$data['main']['temp_min']."C");
         echo("</br>");
+        echo("</br>");
         echo( "min temp:".$data['main']['temp_max']."C");
         echo("</br>");
+        echo("</br>");
         echo("humidity:". $data['main']['humidity']."%");
+        echo("</br>");
         echo("</br>");
         echo("wind:". $data['wind']['speed']."Km/h");
     }
