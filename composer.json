@@ -1,12 +1,10 @@
 {
-    "name": "vendor_name/webservicesproject",
-    "description": "simple project",
-    "license": "MIT",
     
-    
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
     "autoload": {
-        "classmap": ["Model","View"]
-       
+        "classmap": ["model/"]
+        
     }
-    
 }

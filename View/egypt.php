@@ -1,6 +1,6 @@
 
 <?php
-require_once ("vendor/autoload.php");
+require ("vendor/autoload.php");
 
 ini_set("memory_limit",-1);
 

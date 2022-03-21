@@ -7,5 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'weather' => $baseDir . '/Model/weather.php',
+    'Normalizer' => $vendorDir . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
+    'weather' => $baseDir . '/model/weather.php',
+    'weatherguzzle' => $baseDir . '/model/weatherguzzle.php',
 );
